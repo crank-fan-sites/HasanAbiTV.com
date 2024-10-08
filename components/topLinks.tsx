@@ -4,9 +4,7 @@ import Link from 'next/link';
 const TopLinks: React.FC = () => {
   const links = [
     { href: '/', title: 'HasanAbi TV Home' },
-    { href: '/', title: 'HasTok Home' },
-    { href: '/stats', title: 'HasTok Stats' },
-    { href: '/users', title: 'HasTok Users' },
+    { href: 'https://tiktok.hasanabitv.com', title: 'HasTok Home' },
   ];
 
   return (
